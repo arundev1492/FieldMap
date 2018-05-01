@@ -1,0 +1,24 @@
+<h2>Product Details</h2>
+
+<table class="table table-hover table-striped table-bordered">
+    <thead>
+        <tr>
+            <td>Title</td>
+            <td>SKU</td>
+            <td>Description</td>
+            <td>Prize</td>
+            <td>Quantity</td>
+        </tr>
+    </thead>
+    <tbody>
+    
+        <tr ng-repeat="list in Data">
+            <td>{{ list.Title }}</td>
+            <td>{{ list.SKU }}</td>
+            <td>{{ list.Description }}</td>
+            <td>{{ list.Prize }}</td>
+            <td>{{ list.Quantity }}</td>
+        </tr>
+        
+    </tbody>
+</table>

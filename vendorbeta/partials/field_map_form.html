@@ -1,0 +1,62 @@
+<!-- </div> -->
+                    <div class="panel-body" style="padding-top:50px;padding-bottom:50px;" ng-controller="FieldMapController">
+                        
+                        <div class="row form-group">
+                            <label class="col-md-4">
+                                Title
+                            </label>
+                            <div class="col-md-8">
+                                <select name="" ng-model="mapdata.Title" ng-options="item for item in UploadedData"   class="form-control">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row  form-group">
+                            <label class="col-md-4">
+                                SKU
+                            </label>
+                            <div class="col-md-8">
+                                <select name="" ng-model="mapdata.SKU" ng-options="item for item in UploadedData"   class="form-control">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row  form-group">
+                            <label class="col-md-4">
+                                Description
+                            </label>
+                            <div class="col-md-8">
+                                <select name="" ng-model="mapdata.Description" ng-options="item for item in UploadedData"   class="form-control">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row  form-group">
+                            <label class="col-md-4">
+                                Prize
+                            </label>
+                            <div class="col-md-8">
+                                <select name="" ng-model="mapdata.Prize" ng-options="item for item in UploadedData"   class="form-control">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row  form-group">
+                            <label class="col-md-4">
+                                Quantity
+                            </label>
+                            <div class="col-md-8">
+                                <select name="" ng-model="mapdata.Quantity" ng-options="item for item in UploadedData" class="form-control">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row  form-group">
+                            <div class="col-md-4 col-md-offset-4">
+                                <button class="btn btn-primary btn-block" ng-click='save_data();'>Submit</button>
+                            </div>
+                            <div class="col-md-4">
+                                <button class="btn btn-default btn-block" >Cancel</button>
+                            </div>
+                        </div>
+                    </div>
